@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="3.0" xmlns="https://jakarta.ee/xml/ns/jaxb">
+  <!--
+
+Este arquivo foi gerado pela Eclipse Implementation of JAXB, v3.0.0 
+Consulte https://eclipse-ee4j.github.io/jaxb-ri 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2023.04.22 às 08:59:38 PM BRT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://ronipereira.com">
+    <schemaBindings map="false">
+      <package name="com.ronipereira"/>
+    </schemaBindings>
+    <bindings scd="tns:InsertCustomerRequest">
+      <class ref="com.ronipereira.InsertCustomerRequest"/>
+    </bindings>
+    <bindings scd="~tns:CustomerDetail">
+      <class ref="com.ronipereira.CustomerDetail"/>
+    </bindings>
+    <bindings scd="tns:InsertCustomerResponse">
+      <class ref="com.ronipereira.InsertCustomerResponse"/>
+    </bindings>
+    <bindings scd="tns:GetCustomerDetailRequest">
+      <class ref="com.ronipereira.GetCustomerDetailRequest"/>
+    </bindings>
+    <bindings scd="tns:GetCustomerDetailResponse">
+      <class ref="com.ronipereira.GetCustomerDetailResponse"/>
+    </bindings>
+    <bindings scd="tns:GetAllCustomerDetailRequest">
+      <class ref="com.ronipereira.GetAllCustomerDetailRequest"/>
+    </bindings>
+    <bindings scd="tns:GetAllCustomerDetailResponse">
+      <class ref="com.ronipereira.GetAllCustomerDetailResponse"/>
+    </bindings>
+    <bindings scd="tns:DeleteCustomerRequest">
+      <class ref="com.ronipereira.DeleteCustomerRequest"/>
+    </bindings>
+    <bindings scd="tns:DeleteCustomerResponse">
+      <class ref="com.ronipereira.DeleteCustomerResponse"/>
+    </bindings>
+    <bindings scd="~tns:Status">
+      <typesafeEnumClass ref="com.ronipereira.Status"/>
+    </bindings>
+  </bindings>
+</bindings>
+

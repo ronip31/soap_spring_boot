@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xml>
+<GetCustomerDetailRequest>
+        xmlns="http://ronipereira.com">
+        xsi:schemaLocation="http://ronipereira.com Customer-information.xsd"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <id>123</id>
+</GetCustomerDetailRequest>
